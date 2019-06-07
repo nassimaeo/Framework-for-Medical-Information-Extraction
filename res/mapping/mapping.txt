@@ -1,0 +1,80 @@
+# We associate each relationship and concept of the metamodel with its correspending WordNetSynset, Snomed-ct ID_code, null or other words
+# For the lisibility, we added to the code after a "," their descriptions.
+# mm_ means: Meta-Model
+# wn_ means: wordnet
+# sn_ means: snomed-ct
+# nl_ means: it can be null or empty (nothing associated to it)
+# ow_ means: other words
+
+mm_PERSON_CONCEPT_SUBJECT
+wn_102
+ow_I
+ow_She
+ow_she
+ow_he
+ow_He
+ow_patient
+ow_female
+ow_male
+mm_WITH_RELATIONSHIP
+ow_with
+mm_PART_OF_BODY_CONCEPT_SUBJECT
+sn_123037004
+mm_SUFFER_RELATIONSHIP
+wn_39320
+wn_99550
+wn_11518
+wn_102713
+wn_57732
+ow_complaints
+ow_have
+ow_had
+ow_has
+mm_OR_RELATIONSHIP
+ow_or
+mm_DRUG_CONCEPT_SUBJECT
+sn_105590001
+sn_373873005
+mm_CAUSE_RELATIONSHIP
+ow_causes
+mm_SEVERITY_CONCEPT_SUBJECT
+wn_37495
+wn_39365
+wn_35744
+wn_35592
+wn_39364
+wn_34955
+wn_35588
+wn_35734
+wn_39359
+mm_SYMPTOM_CONCEPT_OBJECT
+sn_404684003
+sn_52988006
+mm_SYMPTOM_CONCEPT_SUBJECT
+sn_404684003
+sn_52988006
+mm_DISEASE_CONCEPT_OBJECT
+sn_404684003
+mm_DISEASE_CONCEPT_SUBJECT
+sn_404684003
+mm_LIVE_IN_RELATIONSHIP
+wn_108
+mm_LOCATION_CONCEPT_OBJECT
+wn_109
+mm_BE_RELATIONSHIP
+wn_110
+ow_is
+ow_are
+mm_GENDER_CONCEPT_OBJECT
+wn_111
+mm_SEVERITY_RELATIONSHIP
+nl_null
+mm_NEGATION_RELATIONSHIP
+nl_null
+mm_NEGATION_CONCEPT_SUBJECT
+ow_not
+ow_no
+mm_CONTEXT_CONCEPT_SUBJECT
+sn_417662000
+mm_COLON_RELATIONSHIP
+ow_:
